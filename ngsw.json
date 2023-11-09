@@ -1,0 +1,89 @@
+{
+  "configVersion": 1,
+  "timestamp": 1699519945083,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.335cd2dc6c6e89c2.js",
+        "/manifest.webmanifest",
+        "/polyfills.42dc7cffa38e293e.js",
+        "/runtime.3f947d20cb9ab10a.js",
+        "/styles.527d92b75f0f4488.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/decidua.png",
+        "/assets/fcimg.png",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/pas1.png",
+        "/assets/pas2.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/decidua.png": "b0289cabf6cf70fa9d868c5d94893a142ff8d78c",
+    "/assets/fcimg.png": "d55185bfbd27ddcd9946d739b37585f36cb9bc85",
+    "/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/assets/pas1.png": "fd3e163d667c41813f684b4caeff6b8edad3ad10",
+    "/assets/pas2.png": "1051d01b36ec33add95a3a44fb176377e7ded414",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "a00d2f7c3f885e577eceaffbc54260cad2b4db68",
+    "/main.335cd2dc6c6e89c2.js": "de6cda93eefddc4c42de4131e38202baf3b409da",
+    "/manifest.webmanifest": "0747e1cee6ebb34eb319a54758363d1b50a754f6",
+    "/polyfills.42dc7cffa38e293e.js": "03cb166f43a6b2a0ac3578c8474a39d040e4d571",
+    "/runtime.3f947d20cb9ab10a.js": "b0df8729b4ddc00e4c0f69b6237f2ac1d3819c40",
+    "/styles.527d92b75f0f4488.css": "317d1687c3f5de23489bee815b17b6dbd2ed2a6d"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
